@@ -4,81 +4,15 @@
 
 This project focuses on analyzing Bank Loan data to evaluate loan performance, customer behavior, risk segmentation, and key financial KPIs. Using SQL, Python, Power BI, and Excel, I built a complete data analysis and visualization solution that supports data-driven decision-making for loan approvals, collections, and portfolio health monitoring.
 
-# 🧩 Key Tools & Technologies
+# 🔧 Tools & Technologies
 
-**SQL (PostgreSQL)**:  Data extraction, transformation, KPI calculation
+**SQL:** Database creation, KPI calculations, monthly trends, segmentation
 
-**Python (Pandas, Matplotlib, Seaborn)**: Exploratory Data Analysis
+**Python:** Data cleaning, transformation, EDA, visualization
 
-**Power BI**: Interactive dashboards (Summary, Overview, Details)
+**Power BI:** Summary, Overview, and Detailed dashboards
 
-**Excel**: Pivot tables, charts, summary dashboards
-
-# Major Project Components
-
-# 1️⃣ SQL Data Analysis
-
-. Created and structured the bank_loan_data table using DDL.
-
-# Performed queries for:
-
-. Total Loan Applications
-
-. Funded Amount
-
-. Amount Received
-
-. Average Interest Rate
-
-. DTI (Debt-to-Income Ratio)
-
-. Built MTD & PMTD performance metrics
-
-# Calculated:
-
-. Good Loan Percentage
-
-. Bad Loan Percentage
-
-. Loan status summary (Current, Fully Paid, Charged Off)
-
-# Performed breakdowns by:
-
-. State, Term, Purpose, Employee Length, Home Ownership
-
-. Monthly loan trends
-
-. Added grade-level and purpose-level KPI analysis for deeper insights.
-
-# 2️⃣ Python Data Analysis (Jupyter Notebook)
-
-. Cleaned and transformed loan data using Pandas
-
-. Handled missing values & data type corrections
-
-# Created visualizations:
-
-. Bar charts (Loan purpose, State-wise loans, Employee length)
-
-. Pie charts (Loan status, Term distribution)
-
-. Heatmaps (Correlation matrix)
-
-. Line charts (Monthly trends)
-
-# Conducted exploratory analysis to understand:
-
-. Funding patterns
-
-. Customer financial profile
-
-. High-risk vs low-risk loan behavior
-
-# 3️⃣ Power BI Interactive Dashboard
-
-# Created 3 fully dynamic dashboards:
-
-# 📌 Summary Dashboard
+**Excel:**  Pivot analysis, charts, slicers, summary dashboards
 
 # Overall KPIs:
 
@@ -92,71 +26,51 @@ This project focuses on analyzing Bank Loan data to evaluate loan performance, c
 
  **Avg DTI:** 13.33%
 
-# Good vs Bad Loan Segmentation
+# 📊 Project Deliverables
 
-# Loan status performance matrix
+# SQL Scripts:
 
-Key financial insights
+. Total applications, funded amount, amount received
 
-# 📌 Overview Dashboard
+. Good vs Bad loan KPI calculations
 
-# Monthly loan trends
+. Monthly, state, purpose, and employee length breakdowns
 
-# Loan distribution by:
+# Python Notebook:
 
-. State
+. Data cleaning (missing values, outliers)
 
-. Term
+. EDA using Matplotlib & Seaborn
 
-. Employee length
+. Correlation & distribution analysis
 
-. Purpose
+# Power BI Dashboards:
 
-. Home ownership
+. Summary Dashboard (Good vs Bad loans, KPIs)
 
-. Integrated slicers for dynamic filtering
+. Overview Dashboard (Trends, Purpose, Term, State)
 
-# 📌 Details Dashboard
+. Detailed Records Dashboard
 
-Record-level loan dataset
+#  Excel Dashboard:
 
-# Searchable and filterable by:
+. Purpose, term, state analysis
 
-. Grade
+. KPI summary using Pivot Tables & Slicers
 
-. State
+# 🎯 Key Insights
 
-. Purpose
+**38.6K** loan records analyzed
 
-Shows complete loan journey with all financial fields
+**86%** of loans are Good Loans (Fully Paid + Current)
 
-# 4️⃣ Excel Dashboard
+**13.8%** of loans are Bad Loans (Charged Off)
 
-Built a structured dashboard using Pivot Tables & Charts:
+**Highest loan purpose:** Debt Consolidation
 
-. Loan applications by purpose, term, home ownership
+**Strongest loan activity** in Nov–Dec
 
-. State-wise & monthly summary
-
-. Good vs Bad loan KPI comparison
-
-. Added slicers for interactive filtering
-
-. Provided tabular summary for audit and reporting needs
-
-# 📈 Key Insights Delivered
-
-. **86%** of loans are Good Loans (Fully Paid + Current)
-
-. **13.8%** of loans are Bad Loans (Charged Off)
-
-. **Highest** loan applications occur in December & November
-
-. **Most common loan purpose:** Debt Consolidation
-
-. **Majority borrowers** have 10+ years of experience
-
-. **Most loans** are 36-month term loans (73%)
+**Most loans issued** with 36-month terms (73%)
 
 # 🎯 Project Outcome
 
